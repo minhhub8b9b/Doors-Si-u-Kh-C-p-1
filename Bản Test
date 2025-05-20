@@ -36,13 +36,13 @@ end
 
 end)()
 
--- Rebound
+-- Red Face
 coroutine.wrap(function()
     while true do
         wait(150)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kotyara19k-Doorsspawner/Random-files/main/ReboundHardcoreSpawn"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Red%20Face"))()
 
 end
 
