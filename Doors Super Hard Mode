@@ -1,5 +1,10 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Siêu Khó Cấp 1",true)
-wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Tạo Bởi Minh Hê ",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Siêu Khó Cấp 1", true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Tạo Bởi Minh Hê", true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mod Khó Lắm Cẩn Thẩn Nhé", true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Có Gì lỗi thì nhắn qua Discord Mình Nhé", true)
 
 -- Smiler
 coroutine.wrap(function()
