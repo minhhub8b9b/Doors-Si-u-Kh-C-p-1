@@ -10,8 +10,8 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Spawner.createEntity({
     CustomName = "Hunger",
     Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/hunger.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
-    Speed = 60,
-    MoveDelay = 2,
+    Speed = 40,
+    MoveDelay = 7,
     HeightOffset = 0,
     CanKill = true,
     KillRange = 100,
@@ -19,7 +19,7 @@ local entity = Spawner.createEntity({
     ShatterLights = true,
     FlickerLights = {
         Enabled = false,
-        Duration = 1
+        Duration = 5
     },
     Cycles = {
         Min = 1,
