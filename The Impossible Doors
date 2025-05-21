@@ -4,7 +4,7 @@ wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).c
 -- Smiler
 coroutine.wrap(function()
     while true do
-        wait(70)
+        wait(60)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Smiler"))()
@@ -16,7 +16,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(100)
+        wait(90)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)       
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Hunger"))()
@@ -28,7 +28,7 @@ end)()
 -- A-60
 coroutine.wrap(function()
     while true do
-        wait(300)
+        wait(100)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/A-60"))()
 
@@ -39,7 +39,7 @@ end)()
 -- Red Face
 coroutine.wrap(function()
     while true do
-        wait(150)
+        wait(20)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Red%20Face"))()
