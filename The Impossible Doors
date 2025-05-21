@@ -6,7 +6,7 @@ coroutine.wrap(function()
     while true do
         wait(60)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
+        wait(60)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Smiler"))()
 
 end
@@ -18,7 +18,7 @@ coroutine.wrap(function()
     while true do
         wait(90)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)       
+        wait(90)       
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Hunger"))()
 
 end
@@ -29,7 +29,7 @@ end)()
 coroutine.wrap(function()
     while true do
         wait(100)
-         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait(100)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/A-60"))()
 
 end
@@ -41,7 +41,7 @@ coroutine.wrap(function()
     while true do
         wait(20)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
+        wait(20)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/Red%20Face"))()
 
 end
@@ -53,7 +53,7 @@ coroutine.wrap(function()
     while true do
         wait(60)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
+        wait(60)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-Si-u-Kh-C-p-1/refs/heads/main/A-200"))()
 
         end
